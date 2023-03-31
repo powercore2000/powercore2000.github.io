@@ -276,24 +276,19 @@ header .navbar.animate {
 
 
     /*background-color:green;*/
-    width: 1000px;
+    width: 500px;
 }
 
 #about .content-block{
 
     display: flex;
     /*background:aqua;*/
-    width: 2000px;
-    height: 400px;
+    width: 1000px;
+    height: 50px;
 
 }
-/*
-#about .image{
-    background-color:red;
 
-}
-*/
-@media (max-width: 1000px) {
+@media (max-width: 100px) {
     #about .image {
       display: none !important; 
     }
