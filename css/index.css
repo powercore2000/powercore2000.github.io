@@ -274,7 +274,6 @@ header .navbar.animate {
 
 #about .content {
 
-
     /*background-color:green;*/
     width: 1000px;
 }
@@ -290,9 +289,15 @@ header .navbar.animate {
 /*
 #about .image{
     background-color:red;
-
+    
 }
 */
+#about .image img{
+ 
+    
+    margin: auto;
+}
+
 @media (max-width: 1000px) {
     #about .image {
       display: none !important; 
