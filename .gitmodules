@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/powercore2000/powercore2000.github.io.git
+	branch = main
