@@ -1,6 +1,6 @@
 baseURL: "https://powercore2000.github.io/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Powercore's Place in Space"
 theme: hugo-profile
 
 outputs:
@@ -53,8 +53,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Corvalis C's Place in Space
+  title: "Powercore's Place in Space"
+  description: Powercore's Place in Space
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -117,7 +117,7 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hello hello, my name is"
+    intro: "My username is Powercore2000, but you may also know me as..."
     title: "Corvalis C."
     subtitle: "I develop games and gamify software development"
     content: "Welcome to my blog where I catalog my journey making all things software related. Here you can see my work on game projects, practice my full stack development, and follow my journey of constant improvement and life long learning. Hope you enjoy your stay in my place in space!"
