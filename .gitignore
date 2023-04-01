@@ -39,3 +39,4 @@ hugo.linux
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,hugo,windows
 hugo-build.bat
+*.bat
