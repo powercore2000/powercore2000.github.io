@@ -186,29 +186,25 @@ params:
     items:
       - job: "Lead Software Engineer"
         company: "Silvaroc Studios LLC"
-        companyUrl: "https://example.com"
+        #companyUrl: "https://example.com"
         date: "Aug 2021 - Present"
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        #content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
       - job: "Full Stack Developer"
         company: "Kiira Health"
         companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+        date: "Sept 2022 - Oct 2022"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          #content: I worked as a software developer for more than one year in Amazon.
+        #content: |
+        #  I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+        #  - Lead backend developer for a product.
+        #  - Created a frontend design for a product.
 
       - job: "Online Private Instructor"
         company: "Id Tech"
@@ -217,13 +213,13 @@ params:
         info:
           enable: false
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        #content: |
+         # I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          #- Lead backend developer for a product.
+          #- Created a frontend design for a product.
 
       - job: "Freelance Software Engineering"
         company: "Freelance"
@@ -232,17 +228,12 @@ params:
         featuredLink:
           enable: true
           url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
 
       - job: "Web Contracter"
         company: "Vype Entertainment"
         companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        date: "Feb 2023 - Present"
+        #content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   # Education
   education:
@@ -258,12 +249,7 @@ params:
         #GPA: "3.9 out of 5.0"
         content: |-
           **DEGREE IN PROGRESS**
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          
 
       - title: "High School Diplima"
         school:
@@ -273,7 +259,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: GMTK 2022 Game Jam
@@ -292,7 +278,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
