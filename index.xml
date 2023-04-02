@@ -5,7 +5,17 @@
     <link>https://powercore2000.github.io/</link>
     <description>Recent content on Powercore&#39;s Place in Space</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://powercore2000.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Mar 2023 05:51:24 -0700</lastBuildDate><atom:link href="https://powercore2000.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello_world</title>
+      <link>https://powercore2000.github.io/blogs/hello_world/</link>
+      <pubDate>Fri, 31 Mar 2023 05:51:24 -0700</pubDate>
+      
+      <guid>https://powercore2000.github.io/blogs/hello_world/</guid>
+      <description>Hello World </description>
+    </item>
+    
     <item>
       <title>Image Gallery</title>
       <link>https://powercore2000.github.io/gallery/</link>
