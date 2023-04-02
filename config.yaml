@@ -188,7 +188,15 @@ params:
         company: "Silvaroc Studios LLC"
         #companyUrl: "https://example.com"
         date: "Aug 2021 - Present"
-        #content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: "Oversaw the design and development of all software and virtual production projects. Responsibilities included:"
+        content:  |
+            - Designing and implementing C#/C++ APIs
+            - Built asynchronous serialization systems to read/write information
+            -Lead the design and project management of all software products
+            - Maintained project repositories through source control solutions
+            (GitHub, Perforce, Plastic SCM, e.c.t)
+            - Quality tested programs for optimization with DevOps principles,
+            using Unit Testing techniques, and CI/CD driven development
 
       - job: "Full Stack Developer"
         company: "Kiira Health"
@@ -200,11 +208,14 @@ params:
         info:
           enable: true
           #content: I worked as a software developer for more than one year in Amazon.
-        #content: |
-        #  I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-        #  - Lead backend developer for a product.
-        #  - Created a frontend design for a product.
+        content: 
+          |
+          - Developed Restful APIs and web-hooks on the Firebase platform
+          To handle asynchronous behavior in a server-less architecture
+          - Maintained a React Native mobile apps front-end and back-end
+          behavior, and build process on Android and IOS platforms
+          - Collaborated with other engineers and designers to ensure clarity
+          and cohesion with Agile/SCRUM principles in a JIRA environment
 
       - job: "Online Private Instructor"
         company: "Id Tech"
@@ -215,19 +226,30 @@ params:
         featuredLink:
           enable: false
           url: "https://example.com"
-        #content: |
-         # I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          #- Lead backend developer for a product.
-          #- Created a frontend design for a product.
+        content: |
+            - Applied knowledge of the Unity Engine and C# to a wide variety of
+            technical situations and design needs for students.
+            - Taught over 50 lessons with students and clients of a wide variety
+            of skill levels and backgrounds
+            - Curated a curriculum focused on teaching algorithmic design, and
+            good collaborative coding standards
 
       - job: "Freelance Software Engineering"
         company: "Freelance"
         companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
+        date: "Jan 2018 - Current"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
+        content: 
+          |
+          - Produced a wide variety of applications, tools, and 
+          services on platforms such as AR/VR, Android/IOS, HTML5, etc.
+          - Collaberated with software engineering teams with various sizes, compositions, and 
+          production workflows (Agile, Waterfall, SCRUM, ect)
+          - Developed performative and scalabe systems with proprietary and 3rd party 
+           technologies in several game engines and tech stacks
+          - Gave consultation services to a vairety of software projects and production teams across disiplines (Education, Game Development, ect)
 
       - job: "Web Contracter"
         company: "Vype Entertainment"
@@ -245,10 +267,10 @@ params:
         school:
           name: "California State University Dominguez Hills"
           url: "https://www.csudh.edu/"
-        date: "2018 - 2025"
+        date: "2018 - Current"
         #GPA: "3.9 out of 5.0"
         content: |-
-          **DEGREE IN PROGRESS**
+          **DEGREE IN PROGRESS** Expected date: 2025
           
 
       - title: "High School Diplima"
@@ -259,72 +281,148 @@ params:
 
   # Achievements
   achievements:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
       - title: GMTK 2022 Game Jam
-        content: Worked with two teams to complete two games in 48 hours.
-        url: https://example.com
+        content: "Worked with two teams to complete two games in 48 hours. Placed #2864 and #4994 out of over 6,000 entries!"
+        featured:
+        url: https://powercore2000.itch.io/
       - title: Jingle Jam Game Jam 2022
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
+        content: Placed 27th out of 66 entries
+        url: https://itch.io/jam/yogscast-game-jam-2021/rate/1312546
         url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Cyberspace Crusade
+        content: A virtual production platform made in Unity for creating animation, cinematics, and game dev logs
+        
+
 
   # projects
   projects:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+      - title: Hugo Portfolio Website
+        content: Utilized the Hugo framework and modified hugo-profiles theme to create the online portfolio used now! Hosted on github Pages
+        image: /images/projects/website-thumbnail.jpg
         badges:
           - "Hugo"
-          - "Bootstrap"
+          - "Github Pages"
           - "Javascript"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/powercore2000/powercore2000.github.io
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+      - title: Cyberspace Crusade
+        content: A virtual production platform made in Unity for creating animation, cinematics, and game dev logs. 
+                Used on the powercore2000 youtube channel
+        image: /images/projects/cyberspace-crusade.jpg
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Unity"
+          - "C#"
+          - "Motion Capture"
         links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+          - icon: fab fa-youtube
+            url: http://youtube.com/@powercore2000
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: GPT to Unity
+        content: A cool project I worked on, and need to replace this placeholder text for!
+        image: /images/projects/gpt-to-unity-thumbnail.jpg
+        #featured:
+         # name: Demo V2
+          #link: https://hugo-profile-2.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "ASP.Net Core"
+          - "Networking"
+          - "TCP/UDP"
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
+
+      - title: 2D RPGs
+        content: A cool project I worked on, and need to replace this placeholder text for!
+        image: /images/projects/2d-rpg-thumbnail.jpg
+        #featured:
+         # name: Demo V2
+          #link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Unity"
+          - "C#"
+          - "Pixel Art"
+        #links:
+         # - icon: fab fa-github
+          #  url: https://github.com/gurusabarish/HugoProfileV2           
+
+      - title: Combo Katana
+        content: Created a micro game with unreal engine. Used the Animation blueprint system to handle attack combos and transition conditions.
+        image: /images/projects/combo-katana-thumbnail.jpg
+        #featured:
+         # name: Demo V2
+          #link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Unreal Engine"
+          - "C++"
+          - "Blueprints"
+        #links:
+         # - icon: fab fa-github
+          #  url: https://github.com/gurusabarish/HugoProfileV2    
+
+      - title: Heros of RNG
+        content: One of the GMTK 2022 entries. 
+        image: /images/projects/heros-of-rng-thumbnail.jpg
+        #featured:
+         # name: Demo V2
+          #link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Unity"
+          - "C#"
+          - "Game Jam"
+        #links:
+         # - icon: fab fa-github
+          #  url: https://github.com/gurusabarish/HugoProfileV2         
+
+      - title: Xcom 2 Modding
+        content: Modded Xcom 2 to expand the armor roster
+        image: /images/projects/xcom-mod-thumbnail.jpg
+        #featured:
+         # name: Demo V2
+          #link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Unreal Engine"
+          - "C++"
+          - "Modding"
+        #links:
+         # - icon: fab fa-github
+          #  url: https://github.com/gurusabarish/HugoProfileV2         
+      
+      - title: Hosting Foundary VTT
+        content: Self hosted my own foundary VTT server to host tabletop RPG sessions
+        image: /images/projects/foundary-thumbnail.jpg
+        #featured:
+         # name: Demo V2
+          #link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Docker"
+          - "Server Managment"
+          - "Powershell"
+        #links:
+         # - icon: fab fa-github
+          #  url: https://github.com/gurusabarish/HugoProfileV2         
+
+      - title: Action Lab
+        content: An experimental 3rd person shooter project built out of Cyberspace Crusade
+        image: /images/projects/action-lab-thumbnail.jpg
+        #featured:
+         # name: Demo V2
+          #link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Unity"
+          - "C#"
+          - "Game-Project"
+        #links:
+         # - icon: fab fa-github
+          #  url: https://github.com/gurusabarish/HugoProfileV2         
+
 
   #Contact
   contact:
