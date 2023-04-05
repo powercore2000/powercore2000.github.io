@@ -309,6 +309,8 @@ params:
           - "Hugo"
           - "Github Pages"
           - "Javascript"
+          - "HTML"
+          - "CSS"
         links:
           - icon: fab fa-github
             url: https://github.com/powercore2000/powercore2000.github.io
@@ -340,7 +342,8 @@ params:
             url: https://github.com/gurusabarish/HugoProfileV2
 
       - title: 2D RPGs
-        content: A cool project I worked on, and need to replace this placeholder text for!
+        #content: A cool project I worked on, and need to replace this placeholder text for!
+        content: My first game experiments with Unity's 2d animation system.
         image: /images/projects/2d-rpg-thumbnail.jpg
         #featured:
          # name: Demo V2
@@ -368,7 +371,7 @@ params:
           #  url: https://github.com/gurusabarish/HugoProfileV2    
 
       - title: Heros of RNG
-        content: One of the GMTK 2022 entries. 
+        content: One of the GMTK 2022 entries  worked on! A RNG and dice based dungeon crawler. 
         image: /images/projects/heros-of-rng-thumbnail.jpg
         #featured:
          # name: Demo V2
@@ -447,9 +450,9 @@ params:
     socialNetworks:
       github: https://www.linkedin.com/in/corvalis-c-191851132/
       linkedin: https://www.linkedin.com/in/corvalis-c-191851132/
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      twitter: https://twitter.com/powercore2000
+      instagram: https://www.instagram.com/powercore2000/
+      #facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
