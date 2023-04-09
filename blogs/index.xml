@@ -2,18 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Powercore&#39;s Place in Space</title>
-    <link>https://powercore2000.github.io/blogs/</link>
+    <link>https://powercore2000.silvarocstudios.com/blogs/</link>
     <description>Recent content in Blogs on Powercore&#39;s Place in Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Mar 2023 05:51:24 -0700</lastBuildDate><atom:link href="https://powercore2000.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Apr 2023 05:51:24 -0700</lastBuildDate><atom:link href="https://powercore2000.silvarocstudios.com/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello_world</title>
-      <link>https://powercore2000.github.io/blogs/hello_world/</link>
-      <pubDate>Fri, 31 Mar 2023 05:51:24 -0700</pubDate>
+      <title>Update on the GPT to Unity Project</title>
+      <link>https://powercore2000.silvarocstudios.com/blogs/update-on-gpt-to-unity/</link>
+      <pubDate>Wed, 05 Apr 2023 05:51:24 -0700</pubDate>
       
-      <guid>https://powercore2000.github.io/blogs/hello_world/</guid>
-      <description>Hello World </description>
+      <guid>https://powercore2000.silvarocstudios.com/blogs/update-on-gpt-to-unity/</guid>
+      <description>Introduction Hello, hello!
+Almost 3 months ago I announced my plans to make a tool named GPT to Unity, which was meant to provide access to OpenAi&amp;rsquo;s back-end system inside of the Unity Engine. At the time there were no other tools on the asset store providing that utility, and I found it would have been a fun project to test my web development skills by using ASP.Net Core. Since that announcement, a number of personal delays dramatically slowed development, and other solutions have been posted on the Unity Asset Store.</description>
     </item>
     
   </channel>
