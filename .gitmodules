@@ -1,7 +1,0 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/powercore2000/powercore2000.github.io.git
-	branch = main
-[submodule "themes/hugo-profile"]
-	path = themes/hugo-profile
-	url = https://github.com/gurusabarish/hugo-profile.git

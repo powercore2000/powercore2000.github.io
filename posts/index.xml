@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Powercore&#39;s Place in Space</title>
-    <link>https://powercore2000.silvarocstudios.com/posts/</link>
+    <link>https://powercore2000.github.io/posts/</link>
     <description>Recent content in Posts on Powercore&#39;s Place in Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Apr 2023 14:25:09 -0700</lastBuildDate><atom:link href="https://powercore2000.silvarocstudios.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2023 14:25:09 -0700</lastBuildDate><atom:link href="https://powercore2000.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testpost</title>
-      <link>https://powercore2000.silvarocstudios.com/posts/testpost/</link>
+      <link>https://powercore2000.github.io/posts/testpost/</link>
       <pubDate>Sun, 09 Apr 2023 14:25:09 -0700</pubDate>
       
-      <guid>https://powercore2000.silvarocstudios.com/posts/testpost/</guid>
+      <guid>https://powercore2000.github.io/posts/testpost/</guid>
       <description></description>
     </item>
     

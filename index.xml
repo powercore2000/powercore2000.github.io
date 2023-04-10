@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Powercore&#39;s Place in Space</title>
-    <link>https://powercore2000.silvarocstudios.com/</link>
+    <link>https://powercore2000.github.io/</link>
     <description>Recent content on Powercore&#39;s Place in Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Apr 2023 14:25:09 -0700</lastBuildDate><atom:link href="https://powercore2000.silvarocstudios.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2023 14:25:09 -0700</lastBuildDate><atom:link href="https://powercore2000.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testpost</title>
-      <link>https://powercore2000.silvarocstudios.com/posts/testpost/</link>
+      <link>https://powercore2000.github.io/posts/testpost/</link>
       <pubDate>Sun, 09 Apr 2023 14:25:09 -0700</pubDate>
       
-      <guid>https://powercore2000.silvarocstudios.com/posts/testpost/</guid>
+      <guid>https://powercore2000.github.io/posts/testpost/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Update on the GPT to Unity Project</title>
-      <link>https://powercore2000.silvarocstudios.com/blogs/update-on-gpt-to-unity/</link>
+      <link>https://powercore2000.github.io/blogs/update-on-gpt-to-unity/</link>
       <pubDate>Wed, 05 Apr 2023 05:51:24 -0700</pubDate>
       
-      <guid>https://powercore2000.silvarocstudios.com/blogs/update-on-gpt-to-unity/</guid>
+      <guid>https://powercore2000.github.io/blogs/update-on-gpt-to-unity/</guid>
       <description>Introduction Hello, hello!
 Almost 3 months ago I announced my plans to make a tool named GPT to Unity, which was meant to provide access to OpenAi&amp;rsquo;s back-end system inside of the Unity Engine. At the time there were no other tools on the asset store providing that utility, and I found it would have been a fun project to test my web development skills by using ASP.Net Core. Since that announcement, a number of personal delays dramatically slowed development, and other solutions have been posted on the Unity Asset Store.</description>
     </item>
     
     <item>
       <title>Image Gallery</title>
-      <link>https://powercore2000.silvarocstudios.com/gallery/</link>
+      <link>https://powercore2000.github.io/gallery/</link>
       <pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate>
       
-      <guid>https://powercore2000.silvarocstudios.com/gallery/</guid>
+      <guid>https://powercore2000.github.io/gallery/</guid>
       <description></description>
     </item>
     
