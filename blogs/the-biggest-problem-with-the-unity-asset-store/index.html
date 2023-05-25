@@ -28,14 +28,16 @@
 
 
 
-<meta property="og:title" content="OpenAi" />
-<meta property="og:description" content="Powercore&#39;s Place in Space" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://powercore2000.github.io/tags/openai/" /><meta property="og:site_name" content="Powercore&#39;s Place in Space" />
+<meta property="og:title" content="The biggest problem with the Unity Asset Store" />
+<meta property="og:description" content="As someone who&#39;s used the Unity Asset store for years, this one thing I see in assets drives me up the wall!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://powercore2000.github.io/blogs/the-biggest-problem-with-the-unity-asset-store/" /><meta property="article:section" content="blogs" />
+
+<meta property="og:site_name" content="Powercore&#39;s Place in Space" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="OpenAi"/>
-<meta name="twitter:description" content="Powercore&#39;s Place in Space"/>
+<meta name="twitter:title" content="The biggest problem with the Unity Asset Store"/>
+<meta name="twitter:description" content="As someone who&#39;s used the Unity Asset store for years, this one thing I see in assets drives me up the wall!"/>
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -101,11 +103,14 @@
     }
 </style>
 
-<meta name="description" content="OpenAi of Powercore&#39;s Place in Space">
-<link rel="stylesheet" href="/css/list.css" media="all">
+<meta name="description" content="As someone who&#39;s used the Unity Asset store for years, this one thing I see in assets drives me up the wall!">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-5/all-5.15.4.js"></script>
 
   <title>
-OpenAi | Powercore&#39;s Place in Space
+The biggest problem with the Unity Asset Store | Powercore&#39;s Place in Space
 
   </title>
 </head>
@@ -267,44 +272,141 @@ OpenAi | Powercore&#39;s Place in Space
     </nav>
 </header>
 <div id="content">
-<div class="container pt-5" id="list-page">
-    <h2 class="text-center pb-2">OpenAi</h2>
-    <div class="row">
-        
-        <div class="col-lg-4 col-md-6 my-3">
-            <div class="card-columns">
-                <div class="card h-100">
-                    
-                    <div class="card-header">
-                        <a href="/blogs/update-on-gpt-to-unity/">
-                            <img src="/images/posts/gpt-to-unity-update-thumbnail.jpg" class="card-img-top" alt="Update on the GPT to Unity Project">
-                        </a>
-                    </div>
-                    
-                    <div class="card-body bg-transparent p-4 shadow-sm">
-                        <a href="/blogs/update-on-gpt-to-unity/" class="primary-font card-title">
-                            <h5 class="card-title bg-transparent" title="Update on the GPT to Unity Project">Update on the GPT to …</h5>
-                        </a>
-                        <div class="card-text secondary-font">
-                            <p>Introduction Hello, hello!
-Almost 3 months ago I announced my plans to make a tool named GPT to Unity, which was meant to provide access to OpenAi&rsquo;s back-end system inside of the Unity Engine. At the time there were no other tools on the asset store providing that utility, and I found it would …</p>
-                        </div>
-                    </div>
-                    <div class="mt-auto post-footer bg-transparent py-3">
-                        <span class="float-start bg-transparent">Apr 5, 2023</span>
-                        <a href="/blogs/update-on-gpt-to-unity/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                    </div>
-                </div>
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">The biggest problem with the Unity Asset Store</h1>
+            <div class="text-center">
+              Corvalis C. 
+              <small>|</small>
+              Jan 1, 0001
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
             </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid" src="/images/posts/gpt-to-unity-update-thumbnail.jpg" alt="The biggest problem with the Unity Asset Store">
+          </div>
+          
+          <article class="page-content  p-2">
+          <h1 id="introduction">Introduction</h1>
+<p>I&rsquo;ve bought hundreds of products off the Unity Asset Store in my time.</p>
+<p>While my list of shame may not be the longest, among my unity developers, its still sitting around 500 assets at the time of writing this post. And I can confidently say I dont regret almost any of my asset purchases up to this point. It was my love for purchasing assets, and imagining what I could make with them, that insirped me to make my <a href="https://www.youtube.com/@powercore2000">Cyberspace Crusade program that powers my youtube channel</a>. However I do have a bone to pick with a fair few of the assets I use on a regular basis.</p>
+<p>And that issue is with assemblies.</p>
+<h1 id="but-what-are-assemblies">But What Are Assemblies</h1>
+<p>For those that arent familair, assembly definitions are boundaries people can set up in their code space. It reprensents a collection of similar scripts that should be packadged together, and perform a parpticualr set of behaviors. When your unity projects are built, all code place inside of assemblies are compiled into .dlls and can be acessed by your build game.</p>
+<p>Its generally standard pracrice for asset makers to put their code inside of an assembly definition reference. That way the assets code is nicley segregated from the developer&rsquo;s game code, and doesnt extend  the time it takes to reload assemblies when an unreladed code recompilation happens. However, there&rsquo;s a criticle mistake I see too mant asset makes do to this day with their assemblies: they lack a dedicated EditorAssembly for their assets.</p>
+<h1 id="the-silent-build-killer">The Silent Build Killer</h1>
+<p>The results of this are unoticable at first, but the cosnequences will rear their ugly head the moment a developer tries to create a build for their game. Any editorcode not put into an editor only assembly will throw build errors, as they try to access code only present in a Unity Editor enviroment. Depending how how many assets were added to the project, and how long it had been since the last build, it can become quite a headache to sort out just to get your game back to a build ready state.</p>
+<p>I experinced this first had as I recreated a new build for my Cyberspace Crusade project to impliment my new features. I&rsquo;ve had issues with assets not having editor assemblies before, but for more junor devs, who dont work with assemblies in their own code, or those working under time constraints like a game jam, it can be far more criticle of of an issue.</p>
+<h1 id="but-what-can-we-do">But What Can We Do?</h1>
+<p>What can be done about this, add the extra assembly isnt paroticualry difficutly. But asset makers taking that extra set can save developers like me, a lot more work later on. The reason this issue likely gets past so many asset makers is because they dont make game builds with their asset implimented. And quite a few develeopers might not get that afar. But just a little bit of consious design, and trying to build out a test example with their asset can go a long way toward imrpvoing quality of life for both new and experinced developers.</p>
+<p>Thanks for reading!</p>
+
+          </article>
         </div>
-        
-        <div class="row justify-content-center">
-            <div class="col-auto m-3">
-                
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents"></nav>
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="https://powercore2000.github.io/tags/unity" target="_blank">Unity</a></li>
+              
+              <li class="list-inline-item"><a href="https://powercore2000.github.io/tags/unity-asset-store" target="_blank">Unity Asset Store</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=The%20biggest%20problem%20with%20the%20Unity%20Asset%20Store&url=https%3a%2f%2fpowercore2000.github.io%2fblogs%2fthe-biggest-problem-with-the-unity-asset-store%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=The%20biggest%20problem%20with%20the%20Unity%20Asset%20Store: https%3a%2f%2fpowercore2000.github.io%2fblogs%2fthe-biggest-problem-with-the-unity-asset-store%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=The%20biggest%20problem%20with%20the%20Unity%20Asset%20Store&amp;body=Check%20out%20this%20site https%3a%2f%2fpowercore2000.github.io%2fblogs%2fthe-biggest-problem-with-the-unity-asset-store%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
+          </aside>
+          
         </div>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
 
   </div><footer id = "footer">
     <div class="container py-3" id="recent-posts">
@@ -316,31 +418,6 @@ Almost 3 months ago I announced my plans to make a tool named GPT to Unity, whic
         Recent Posts
     </div>
     <div class="row justify-content-center">
-        
-        <div class="col-lg-4 col-md-6 pt-2">
-            <div class="card h-100">
-                
-                <div class="card-header">
-                    <a href="/blogs/my-biggest-problem-with-the-unity-asset-store/">
-                        <img src="/images/posts/post-2-thumbnail.png" class="card-img-top" alt="My biggest problem with the Unity Asset Store">
-                    </a>
-                </div>
-                
-                <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/my-biggest-problem-with-the-unity-asset-store/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="My biggest problem with the Unity Asset Store">My biggest problem with …</h5>
-                    </a>
-                    <div class="card-text secondary-font">
-                        <p>Introduction I&rsquo;ve bought hundreds of products off the Unity Asset Store in my time.
-While my list of shame may not be the longest, among my fellow unity developers, it&rsquo;s still sitting around 500 assets at the time of writing this post. And I can confidently say I don&rsquo;t regret …</p>
-                    </div>
-                </div>
-                <div class="mt-auto card-footer">
-                    <span class="float-start">May 25, 2023</span>
-                    <a href="/blogs/my-biggest-problem-with-the-unity-asset-store/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                </div>
-            </div>
-        </div>
         
         <div class="col-lg-4 col-md-6 pt-2">
             <div class="card h-100">
@@ -363,6 +440,31 @@ Almost 3 months ago I announced my plans to make a tool named GPT to Unity, whic
                 <div class="mt-auto card-footer">
                     <span class="float-start">Apr 5, 2023</span>
                     <a href="/blogs/update-on-gpt-to-unity/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/the-biggest-problem-with-the-unity-asset-store/">
+                        <img src="/images/posts/gpt-to-unity-update-thumbnail.jpg" class="card-img-top" alt="The biggest problem with the Unity Asset Store">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/the-biggest-problem-with-the-unity-asset-store/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="The biggest problem with the Unity Asset Store">The biggest problem with …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>Introduction I&rsquo;ve bought hundreds of products off the Unity Asset Store in my time.
+While my list of shame may not be the longest, among my unity developers, its still sitting around 500 assets at the time of writing this post. And I can confidently say I dont regret almost any of my asset …</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Jan 1, 0001</span>
+                    <a href="/blogs/the-biggest-problem-with-the-unity-asset-store/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
